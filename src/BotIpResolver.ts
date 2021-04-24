@@ -2,7 +2,7 @@ import { Cluster, Redis, RedisClient, RedisClusterOptions, RedisHostOptions } fr
 import { promises as dnsPromises } from 'dns';
 import { BotDomainRegexps } from './data/BotDomainRegexps';
 
-const CACHE_TTL = 3600; // IP 정보 캐시 유효시간
+const CACHE_TTL = 86400; // IP 정보 캐시 유효시간
 const CACHE_KEY_PREFIX = 'botName:byIp';
 
 export class BotIpResolver {

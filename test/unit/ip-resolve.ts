@@ -26,8 +26,18 @@ describe('check-ip', async () => {
     expect(ipInfo).to.be.eq('naver');
   });
 
-  it('트위터 크롤로 IP 검증', async () => {
+  it('트위터 크롤러 IP 검증', async () => {
     const ipInfo = await resolver.resolve('199.16.157.180');
     expect(ipInfo).to.be.eq('twitter');
+  });
+
+  it('OCN 크롤러 IP 검증', async () => {
+    const ipInfo = await resolver.resolve('153.218.128.84');
+    expect(ipInfo).to.be.eq('ocn');
+  });
+
+  it('ahrefs 크롤러 IP 검증', async () => {
+    const ipInfo = await resolver.resolve('54.36.149.26');
+    expect(ipInfo).to.be.eq('ahrefs');
   });
 });
