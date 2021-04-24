@@ -5,7 +5,8 @@ const BotDomainRegexps: Record<string, RegExp> = {
   twitter: /(twttr\.com|twitter\.com)$/,
   bing: /msn\.com$/,
   ocn: /ocn\.ne\.jp$/,
-  ahrefs: /ahrefs\.com$/
+  ahrefs: /ahrefs\.com$/,
+  yandex: /yandex\.com$/
 };
 
 export { BotDomainRegexps };

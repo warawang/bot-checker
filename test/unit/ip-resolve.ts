@@ -40,4 +40,9 @@ describe('check-ip', async () => {
     const ipInfo = await resolver.resolve('54.36.149.26');
     expect(ipInfo).to.be.eq('ahrefs');
   });
+
+  it('yandex 크롤러 IP 검증', async () => {
+    const ipInfo = await resolver.resolve('77.88.5.132');
+    expect(ipInfo).to.be.eq('yandex');
+  });
 });
