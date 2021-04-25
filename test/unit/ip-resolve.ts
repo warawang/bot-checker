@@ -45,4 +45,9 @@ describe('check-ip', async () => {
     const ipInfo = await resolver.resolve('77.88.5.132');
     expect(ipInfo).to.be.eq('yandex');
   });
+
+  it('hinet 크롤러 IP 검증', async () => {
+    const ipInfo = await resolver.resolve('36.226.149.93');
+    expect(ipInfo).to.be.eq('hinet');
+  });
 });
