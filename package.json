@@ -1,5 +1,5 @@
 {
-  "name": "@diff./bot-checker",
+  "name": "@diff-dot/bot-checker",
   "version": "1.0.8",
   "description": "Check bot(crawler or scrapper) by ip",
   "main": "dist/index.js",
