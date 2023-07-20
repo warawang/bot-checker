@@ -1,4 +1,4 @@
-import { Cluster, Redis, RedisClient, RedisClusterOptions, RedisHostOptions } from '@diff./redis-client';
+import { Cluster, Redis, RedisClient, RedisClusterOptions, RedisHostOptions } from '@diff-dot/redis-client';
 import { promises as dnsPromises } from 'dns';
 import { BotDomainRegexps } from './data/BotDomainRegexps';
 

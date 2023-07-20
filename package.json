@@ -14,30 +14,28 @@
     "type": "git",
     "url": "git+https://github.com/diff-dot/bot-checker"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "DIFF.",
   "license": "ISC",
   "dependencies": {
-    "@diff./redis-client": "^2.1.5"
+    "@diff-dot/redis-client": "^2.1.8"
   },
   "devDependencies": {
-    "@babel/cli": "^7.12.1",
-    "@babel/core": "^7.12.3",
-    "@babel/plugin-proposal-class-properties": "^7.12.1",
-    "@babel/preset-env": "^7.12.1",
-    "@babel/preset-typescript": "^7.12.1",
-    "@types/chai": "^4.2.7",
-    "@types/mocha": "^5.2.7",
-    "@types/node": "^13.7.7",
-    "@typescript-eslint/eslint-plugin": "^2.12.0",
-    "@typescript-eslint/parser": "^1.13.0",
-    "@typescript-eslint/typescript-estree": "^1.13.0",
-    "chai": "^4.2.0",
-    "eslint": "^6.8.0",
-    "eslint-config-prettier": "^6.7.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^14.18.53",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@typescript-eslint/typescript-estree": "^5.47.0",
+    "chai": "^4.3.7",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^7.2.0",
     "eslint-plugin-no-null": "^1.0.2",
-    "eslint-plugin-prettier": "^3.1.2",
-    "mocha": "^6.2.2",
-    "prettier": "^1.19.1",
-    "typescript": "^3.7.3"
+    "eslint-plugin-prettier": "^4.2.1",
+    "mocha": "^10.2.0",
+    "prettier": "^2.8.8",
+    "typescript": "^4.9.5"
   }
 }

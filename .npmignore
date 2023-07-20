@@ -1,6 +1,10 @@
 src
+test
+tsconfig.*.json
 tsconfig.json
 tslint.json
-.prettierrc
+.prettierrc.js
 .eslintrc.js
 .gitignore
+.mocharc.js
+.npmignore
