@@ -6,8 +6,8 @@ const resolver = new BotIpResolver({
     type: 'standalone',
     host: '127.0.0.1',
     port: 6379,
-    keyPrefix: 'bot-checker:'
-  }
+    keyPrefix: 'bot-checker:',
+  },
 });
 
 describe('check-ip', async () => {
